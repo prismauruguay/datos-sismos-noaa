@@ -37,7 +37,7 @@ No hace falta descargar nada: pandas puede leer el CSV directamente desde GitHub
 ```python
 import pandas as pd
 
-url = "https://raw.githubusercontent.com/USUARIO/REPOSITORIO/main/data/terremotos.csv"
+url = "https://raw.githubusercontent.com/prismauruguay/datos-sismos-noaa/main/data/terremotos.csv"
 df_sismos = pd.read_csv(url, parse_dates=["fecha"])
 print(df_sismos.head())
 ```
@@ -85,3 +85,8 @@ pip install pandas
 python descargar_datos_noaa.py
 python limpiar_datos.py
 ```
+
+## Licencia
+
+- **Datos:** provienen de NOAA NCEI y son de dominio público. Citá la fuente original (ver arriba).
+- **Scripts** (`descargar_datos_noaa.py`, `limpiar_datos.py`): licencia MIT, ver `LICENSE`.

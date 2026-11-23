@@ -193,6 +193,7 @@ fecha,hora,continente,pais,region,magnitud,cantidad_de_victimas,latitud,longitud
 2021-06-23,02:54:18,América del Sur,Perú,Canete,5.8,1,-12.687,-76.721,True,2021,6
 2021-06-16,04:43:07,Asia,Indonesia,Maluku,5.8,0,-3.593,129.503,False,2021,6
 2021-06-10,08:54:17,África,Congo,South Kivu,5.0,2,-3.086,28.259,True,2021,6
+2021-05-25,09:03:00,África,Ruanda,Rubavu; Congo,4.7,32,-1.601,29.4,True,2021,5
 2021-05-21,18:04:13,Asia,China,Qinghai Province,7.3,20,34.598,98.251,True,2021,5
 2021-05-21,13:48:37,Asia,China,Yunnan Province,6.1,3,25.761,100.011,True,2021,5
 2021-04-28,02:21:26,Asia,India,Assam,6.0,2,26.782,92.436,True,2021,4
@@ -1353,6 +1354,7 @@ fecha,hora,continente,pais,region,magnitud,cantidad_de_victimas,latitud,longitud
 2002-02-03,20:59:27,Asia,Tayikistán,Roghun,4.9,0,38.773,69.924,False,2002,2
 2002-02-03,07:11:28,Asia,Turquía,Afyon,6.5,44,38.573,31.271,True,2002,2
 2002-01-30,08:42:03,América del Norte,México,Veracruz,5.9,0,18.194,-95.908,False,2002,1
+2002-01-17,20:01:29,África,Ruanda,Gisenyi,4.7,1001,-1.684,29.077,True,2002,1
 2002-01-14,15:36:26,América del Sur,Chile,Northern,5.6,0,-19.384,-69.231,False,2002,1
 2002-01-10,11:14:56,Oceanía,Papúa Nueva Guinea,Aitape,6.7,1,-3.212,142.427,True,2002,1
 2002-01-09,06:45:57,Asia,Tayikistán,Roghun,5.3,3,38.673,69.902,True,2002,1
@@ -1683,6 +1685,7 @@ fecha,hora,continente,pais,region,magnitud,cantidad_de_victimas,latitud,longitud
 1991-06-28,14:43:54,América del Norte,Estados Unidos,"Arcadia, Glendale, Los Angeles",5.1,2,34.262,-118.002,True,1991,6
 1991-06-20,05:18:52,Asia,Indonesia,Minahassa,7.5,0,1.196,122.787,False,1991,6
 1991-06-16,11:07:10,Asia,Turquía,Kagizman,4.5,0,39.984,42.875,False,1991,6
+1991-06-15,11:15:28,Asia,Filipinas,Luzon,5.5,800,15.119,120.355,True,1991,6
 1991-06-15,00:59:20,Asia,Georgia,"Dzhava, Tskhinvali, Ossetia",6.1,8,42.461,44.009,True,1991,6
 1991-05-26,10:59:48,Asia,Malasia,Kalimantan,4.5,1,5.865,116.746,True,1991,5
 1991-05-15,14:28:50,Asia,Georgia,Khekheti,4.9,0,42.565,43.349,False,1991,5
@@ -2064,6 +2067,7 @@ fecha,hora,continente,pais,region,magnitud,cantidad_de_victimas,latitud,longitud
 1980-06-09,03:28:18,América del Norte,México,Noroeste,6.4,1,32.22,-114.985,True,1980,6
 1980-05-25,16:33:44,América del Norte,Estados Unidos,Mammoth Lakes,6.1,0,37.6,-118.84,False,1980,5
 1980-05-18,20:02:57,Europa,Serbia,Serbia,5.8,0,43.294,20.837,False,1980,5
+1980-05-18,15:32:11,América del Norte,Estados Unidos,Mt St Helens,5.2,61,46.214,-122.194,True,1980,5
 1980-05-18,07:09:38,América del Norte,Guatemala,S Coast,5.3,0,14.716,-91.317,False,1980,5
 1980-05-14,01:41:03,Europa,Italia,Sur,4.5,0,40.459,15.855,False,1980,5
 1980-05-12,16:37:34,Oceanía,Vanuatu,,6.1,0,-14.464,167.902,False,1980,5

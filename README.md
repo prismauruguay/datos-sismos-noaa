@@ -26,7 +26,7 @@ Por eso **no es un catálogo de todos los sismos**: los sismos chicos aparecen s
 | Archivo | Contenido |
 |---|---|
 | `data/terremotos.csv` | Datos crudos: 3493 sismos tal como los informa NOAA (con valores faltantes). |
-| `data/terremotos_limpio.csv` | Datos limpios: 3280 sismos, resultado de `limpiar_datos.py`. |
+| `data/terremotos_limpio.csv` | Datos limpios: 3284 sismos, resultado de `limpiar_datos.py`. |
 | `descargar_datos_noaa.py` | Descarga los datos desde la API de NOAA y genera `terremotos.csv`. |
 | `limpiar_datos.py` | Aplica las decisiones de limpieza y genera `terremotos_limpio.csv`. |
 
@@ -61,11 +61,12 @@ el dato de víctimas), `anio` y `mes`.
 
 ## Decisiones de limpieza
 
-1. Las víctimas vacías se completan con 0, porque NOAA solo registra el campo cuando hubo muertes.
-   La columna `victimas_informadas` conserva qué registros venían sin dato.
+1. Las víctimas vacías se completan con 0, y la columna `victimas_informadas` conserva qué
+   registros venían sin dato. Atención: un vacío no es un cero. NOAA nunca usa el 0 en este campo,
+   así que un vacío puede significar que no hubo muertes o que las hubo y no se conoce la cifra.
+   Para analizar muertes, usá solo los registros con `victimas_informadas` igual a `True`, como
+   hace el manual.
 2. Se excluyen 176 sismos sin magnitud informada y 33 de magnitud menor a 4.
-3. Se excluyen 4 eventos cuyas víctimas se atribuyen a erupciones volcánicas: Nyiragongo (2002 y
-   2021), Pinatubo (1991) y St. Helens (1980).
 
 ## Limitaciones
 
